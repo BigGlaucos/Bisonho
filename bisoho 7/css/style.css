@@ -49,7 +49,20 @@ body{
 #area-lateral{
     width: 15rem;
     margin-left: 1.2rem;
+    padding: 20px;
+    text-align:start;
 }
+
+#area-lateral p {
+    margin: 5px;
+    background-color: #fff;
+    color: #565656;
+}
+
+#area-lateral a{
+    margin: 5px;
+}
+
 .postagem{
     padding: 1rem;
     background-color: #fff;
@@ -81,4 +94,44 @@ body{
 }
 .postagem a:hover{
     text-decoration: underline;
+}
+
+.conteudo-lateral-titulo{
+    background-color: #b4b4b4;
+    border-radius: 5px 5px 0px 0px;    
+}
+.conteudo-lateral{
+background-color:#fff ;
+border-radius: 10px;
+margin-top: 5px;
+}
+
+.conteudo-lateral a{
+    color: #f7b600;
+    text-decoration: none;
+    margin: 0.5px
+
+}
+.navegacao-lateral{
+
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+
+}
+
+hr{
+    margin: 10px auto;
+    height: 5px;
+    background-color: #b4b4b4;
+}
+
+footer{
+text-align: center;
+    background-color: #b4b4b4;
+    font-weight: bold;
+    font-size: large;
+    margin: auto;
+    width: 57.5rem;
 }
